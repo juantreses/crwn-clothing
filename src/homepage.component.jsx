@@ -1,35 +1,37 @@
 import React from "react";
 
+import './homepage.styles.scss';
+
 const HomePage = () => (
     <div className='homepage'>
         <div className='directory-menu'>
             <div className='menu-item'>
                 <div className='content'>
-                    <h1 className='title'>HATS</h1>
+                    <h2 className='title'>HATS</h2>
                     <span className='subtitle'>SHOP NOW</span>
                 </div>
             </div>
             <div className='menu-item'>
                 <div className='content'>
-                    <h1 className='title'>JACKETS</h1>
+                    <h2 className='title'>JACKETS</h2>
                     <span className='subtitle'>SHOP NOW</span>
                 </div>
             </div>
             <div className='menu-item'>
                 <div className='content'>
-                    <h1 className='title'>SNEAKERS</h1>
+                    <h2 className='title'>SNEAKERS</h2>
                     <span className='subtitle'>SHOP NOW</span>
                 </div>
             </div>
             <div className='menu-item'>
                 <div className='content'>
-                    <h1 className='title'>WOMENS</h1>
+                    <h2 className='title'>WOMENS</h2>
                     <span className='subtitle'>SHOP NOW</span>
                 </div>
             </div>
             <div className='menu-item'>
                 <div className='content'>
-                    <h1 className='title'>MENS</h1>
+                    <h2 className='title'>MENS</h2>
                     <span className='subtitle'>SHOP NOW</span>
                 </div>
             </div>
