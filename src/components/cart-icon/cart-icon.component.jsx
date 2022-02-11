@@ -5,7 +5,6 @@ import {createStructuredSelector} from "reselect";
 import {toggleCartHidden} from "../../redux/cart/cart.actions";
 import {selectCartItemsCount} from "../../redux/cart/cart.selectors";
 
-import './cart-icon.styles.scss';
 import {CartIconContainer, ItemCountContainer, ShoppingIcon} from "./cart-icon.styles";
 
 const CartIcon = ({toggleCartHidden, itemCount}) => (
