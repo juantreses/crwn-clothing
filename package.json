@@ -1,7 +1,6 @@
 {
   "name": "crwn-clothing",
   "version": "0.1.0",
-  "homepage": "https://juantreses.github.io/crwn-clothing",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -37,6 +36,7 @@
   "scripts": {
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
+    "heroku": "heroku create crwn-clothing-jan --buildpack https://github.com/mars/create-react-app-buildpack.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
