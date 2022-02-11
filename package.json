@@ -34,9 +34,6 @@
     "workbox-streams": "^5.1.4"
   },
   "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
-    "heroku": "heroku create crwn-clothing-jan --buildpack https://github.com/mars/create-react-app-buildpack.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
