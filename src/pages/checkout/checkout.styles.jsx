@@ -16,7 +16,7 @@ export const CheckoutPageContainer = styled.div`
 
 export const CheckoutHeaderContainer = styled.div`
   width: 100%;
-  height: 40px;
+  padding: 10px 0;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid darkgrey;

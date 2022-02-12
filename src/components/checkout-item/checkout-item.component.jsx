@@ -19,7 +19,7 @@ const CheckoutItem = ({cartItem, clearItem, addItem, removeItem}) => {
                 <img src={imageUrl} alt='item'/>
             </ImageContainer>
             <TextContainer>{name}</TextContainer>
-            <QuantityContainer className='quantity'>
+            <QuantityContainer>
                 <div onClick={() => removeItem(cartItem)}>&#10094;</div>
                 <span>{quantity}</span>
                 <div onClick={() => addItem(cartItem)}>&#10095;</div>
